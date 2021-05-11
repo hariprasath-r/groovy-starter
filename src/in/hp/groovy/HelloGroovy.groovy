@@ -2,6 +2,11 @@ package in.hp.groovy
 
 println('Groovy is Good and Dynamic')
 
+/**
+ * - Groovy Supports all data types from Java and more
+ * - It supports dynamic typing. use **def** keyword for creating variables, it is optional though
+ */
+
 def a = 10
 def b = 20.50F
 def c = 'Hari'
@@ -17,6 +22,9 @@ println("Type of ${c} is ${c.getClass()}")
 println("Type of ${d} is ${d.getClass()}")
 println("Type of ${f} is \n ${f.getClass()}")
 
-// e is a string containing regex, it can be used to match patterns
+/**
+ * Find or match operator ==~
+ * e is a string containing regex, it can be used to match patterns
+ */
 email = "abc@def.com"
 println("Is ${email} a valid email? ${email ==~ e}")
